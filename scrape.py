@@ -54,7 +54,9 @@ for link in links:
 		for data in text.find_all('div', {'class':'pi-data-value pi-font'}):
 			studentClass = data.text
 
-
+		text = div.find('div', {'data-source':'error'})
+		for data in text.find_all('div', {'class':'pi-data-value pi-font'}):
+			errorrr = data.text
 	except:
 		pass
 
@@ -70,10 +72,6 @@ for link in links:
 		character.append(person)
 
 print(character)
-
-
-	# except:
-	# 	pass
 
 db = client.hyouka
 
