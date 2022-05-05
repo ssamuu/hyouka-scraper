@@ -9,7 +9,7 @@ load_dotenv()
 mongo = os.getenv('MONGO_URI')
 client = MongoClient(mongo)
 
-links = ['/wiki/Houtarou_Oreki', '/wiki/Eru_Chitanda', '/wiki/Satoshi_Fukube', '/wiki/Mayaka_Ibara', '/wiki/Tomoe_Oreki', '/wiki/Ayako_Kouchi', '/wiki/Fuyumi_Irisu', '/wiki/Jirou_Tanabe', '/wiki/Junya_Nakajou', '/wiki/Kaho_Juumonji', '/wiki/Koreyuki_Tani', '/wiki/Kurako_Eba', '/wiki/Masashi_Toogaito', '/wiki/Mayu_Hongou', '/wiki/Misaki_Sawakiguchi', '/wiki/Muneyoshi_Kugayama', '/wiki/Shouko_Yuasa', '/wiki/Tomohiro_Haba', '/wiki/Yasukuni_Yoshino', '/wiki/Jun_Sekitani', '/wiki/Haruna_Anjou', '/wiki/Kayo_Zenna', '/wiki/Masakiyo_Ogi', '/wiki/Omichi', '/wiki/Rie_Zenna', '/wiki/Youko_Itoigawa']
+links = ['/wiki/Houtarou_Oreki', '/wiki/Eru_Chitanda', '/wiki/Satoshi_Fukube', '/wiki/Mayaka_Ibara', '/wiki/Tomoe_Oreki', '/wiki/Ayako_Kouchi', '/wiki/Fuyumi_Irisu', '/wiki/Jirou_Tanabe', '/wiki/Junya_Nakajou', '/wiki/Kaho_Juumonji', '/wiki/Koreyuki_Tani', '/wiki/Kurako_Eba', '/wiki/Masashi_Toogaito', '/wiki/Mayu_Hongou', '/wiki/Misaki_Sawakiguchi', '/wiki/Muneyoshi_Kugayama', '/wiki/Shouko_Yuasa', '/wiki/Tomohiro_Haba', '/wiki/Yasukuni_Yoshino', '/wiki/Jun_Sekitani', '/wiki/Haruna_Anjou', '/wiki/Kayo_Zenna', '/wiki/Masakiyo_Ogi', '/wiki/Omichi', '/wiki/Rie_Zenna', '/wiki/Youko_Itoigawa', '/wiki/Tomoko_Oohinata']
 
 #links = ['/wiki/Houtarou_Oreki', '/wiki/Eru_Chitanda', '/wiki/Satoshi_Fukube', '/wiki/Mayaka_Ibara']
 character =[]
