@@ -54,7 +54,7 @@ for link in links:
 		for data in text.find_all('div', {'class':'pi-data-value pi-font'}):
 			studentClass = data.text
 
-	#uncomment this after getting the main characters
+
 	except:
 		pass
 
@@ -71,10 +71,7 @@ for link in links:
 
 print(character)
 
-		
 
-		
-	#run this first for the main characters then comment this out put it in below character.append
 	# except:
 	# 	pass
 
