@@ -78,7 +78,7 @@ print(character)
 	# except:
 	# 	pass
 
-db = client.hyouka2
+db = client.hyouka
 
 for cast in character:
-	db.hyouka.insert_one(cast)
+	db.characters.insert_one(cast)
