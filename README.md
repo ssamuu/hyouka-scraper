@@ -14,7 +14,3 @@ MONGO_URI="YOUR_MONGO_URI"
 ```
 python scrape.py 
 ```
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
